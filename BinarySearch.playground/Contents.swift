@@ -6,7 +6,7 @@ for i in 0...150 {
     SortedArray.append(i)
 }
 
-var SortedArray2 = [1, 5, 7, 3, 9, 24]
+var Array2 = [1, 5, 7, 3, 9, 24]
 
 SortedArray.count
 
@@ -29,4 +29,6 @@ func BinarySearch(Array: [Int], Value: Int) -> Int? {
     return nil
 }
 
-BinarySearch(Array: SortedArray2, Value: 24)
+BinarySearch(Array: Array2, Value: 24)
+
+
